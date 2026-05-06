@@ -15,5 +15,5 @@ This project demonstrates a sequential LED animation using an Arduino Uno. The c
 ## How to Use
 
 1. Connect the LEDs to digital pins 2 through 9 and the button to pin 10.
-2. Open `ButtonToggleChaser.ino` in Arduino IDE.
+2. Open `05-button-toggle-chaser.ino` in Arduino IDE.
 3. Upload the code to your board.
