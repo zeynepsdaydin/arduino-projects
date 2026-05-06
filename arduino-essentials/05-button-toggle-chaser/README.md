@@ -1,20 +1,19 @@
-05 - Button Toggle Knight Rider (Non-Blocking)
-This project features a Knight Rider LED animation controlled by a single push button (Start/Stop). It is built using professional state management to ensure a responsive user experience.
+# Knight Rider LED Chaser
 
- Key Features
-Non-Blocking Architecture: Uses a "step-by-step" logic instead of long delay() or for loops, allowing the system to listen to the button at all times.
+This project demonstrates a sequential LED animation using an Arduino Uno. The code is written in C++ using arrays and features non-blocking logic for a responsive user experience.
 
-Toggle Control: Implements a state-based logic (Press once to start, press again to stop).
+![Project Demo](circuit.jpeg)
 
-Debounced Input: Includes software debouncing to prevent mechanical button noise.
+## Components
 
-Hardware Connections
-LEDs: Connected to Digital Pins 2 - 9.
+* Arduino Uno
+* 8x LEDs
+* 8x 330Ω Resistors
+* 1x Push Button & 10kΩ Resistor
+* Jumper Wires & Breadboard
 
-Button: Connected to Digital Pin 10 (with a 10kΩ Pull-down resistor).
+## How to Use
 
-Instructions
-Upload the code via Arduino IDE.
-
-Press once to initiate the LED sequence.
-Press again to immediately stop the animation.
+1. Connect the LEDs to digital pins 2 through 9 and the button to pin 10.
+2. Open `ButtonToggleChaser.ino` in Arduino IDE.
+3. Upload the code to your board.
